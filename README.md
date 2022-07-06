@@ -10,20 +10,29 @@ Este postagem tem como objetivo descrever como instalar a API do armazenamento d
 
 1 - Criar uma conta na [Copernicus](https://cds.climate.copernicus.eu/);
 
+
 2 - Entrar [aqui](https://cds.climate.copernicus.eu/user) usando seu login e senha da Copernicus e obter sua UID e API Key:
 Exemplo:
+
+
 UID: 999999
 API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
+
+
 
 3 - Copiar e salvar sua UID e API Key num bloco de notas;
 
 4 - Abrir terminal editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
+
+
 
 {
   echo 'url: https://cds.climate.copernicus.eu/api/v2'
   echo 'key: UID:API_KEY'
   echo 'verify: 0'
 } > ~/.cdsapirc
+
+
 
 ou abrir um bloco notas e colar seu UID e API Key conforme o exemplo:
 
@@ -37,8 +46,13 @@ Obs.: Verficar a extensão do arquivo, caso esteja como .txt trocar por .cdsapir
 
 5 - Instalando CDS API:
 
+
 pip install cdsapi
+
+
 ou
+
+
 conda install cdsapi
 
 6 - Verificando se não houve erro até aqui, entrar no Python Script e digitar:
