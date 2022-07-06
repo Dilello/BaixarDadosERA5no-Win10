@@ -86,7 +86,7 @@ conda install -c conda-forge netCDF4
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
 
-### 10 - Já diretório de trabalho executar:
+### 10 - Já no seu diretório de trabalho executar:
 
 python ERA5_request.py
 
