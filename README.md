@@ -8,37 +8,36 @@ Este postagem tem como objetivo descrever como instalar a API do armazenamento d
 
 ## Etapas
 
-
 1 - Criar uma conta na [Copernicus](https://cds.climate.copernicus.eu/);
 
-
 2 - Entrar [aqui](https://cds.climate.copernicus.eu/user) usando seu login e senha da Copernicus e obter sua UID e API Key:
+
 Exemplo:
 
-
 UID: 999999
-API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 
+API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 
 3 - Copiar e salvar sua UID e API Key num bloco de notas;
 
-
-
 4 - Abrir terminal editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
 
-
 {
+  
   echo 'url: https://cds.climate.copernicus.eu/api/v2'
+  
   echo 'key: UID:API_KEY'
+  
   echo 'verify: 0'
-} > ~/.cdsapirc
 
+} > ~/.cdsapirc
 
 ou abrir um bloco notas e colar seu UID e API Key conforme o exemplo:
 
-
 url: https://cds.climate.copernicus.eu/api/v2
+
 key: 999999:fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
+
 verify:0
 
 
@@ -63,6 +62,7 @@ conda install cdsapi
 
 
 import cdsapi
+
 cds = cdsapi.Client()
 
 
@@ -82,14 +82,17 @@ conda install -c conda-forge netCDF4
 
 
 9 - Abrir o código era5_crocotools_param.py em editor de texto de sua preferencia e modificar conforme suas necessidades as linhas:
+
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
 
 10 - Já diretório de trabalho executar:
+
 python ERA5_request.py
 
 
 11 - Depois converter:
+
 python ERA5_convert.py
 
 
