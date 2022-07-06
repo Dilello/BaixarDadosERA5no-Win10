@@ -81,7 +81,7 @@ ou
 conda install -c conda-forge netCDF4
 
 
-### 9 - Abrir o código era5_crocotools_param.py em editor de texto de sua preferencia e modificar conforme suas necessidades as linhas:
+### 9 - Abrir o código era5_crocotools_param.py em um editor de texto da sua preferência e modificar conforme suas necessidades as linhas:
 
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
