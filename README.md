@@ -4,7 +4,7 @@ ERA5 é a reanálise climática de quinta geração produzida pelo Centro Europe
 O produto fornece saída horária para muitos parâmetros atmosféricos, terrestres e oceânicos, juntamente com estimativas de incerteza. 
 No entanto, a menos que você esteja trabalhando na nuvem, armazenar a saída horária bruta pode ocupar muito espaço.
 
-Este postagem tem como objetivo descrever como instalar a API do armazenamento de dados climáticos (CDS) para ler e analisar a saída ERA5 em Python e no sistema operacional Windows 10.
+Esta postagem tem como objetivo descrever a instalarção da API do armazenamento de dados climáticos (CDS) para ler e analisar a saída ERA5 em Python e no sistema operacional Windows 10.
 
 ## Etapas
 
