@@ -8,9 +8,9 @@ Este postagem tem como objetivo descrever como instalar a API do armazenamento d
 
 ## Etapas
 
-###1 - Criar uma conta na [Copernicus](https://cds.climate.copernicus.eu/);
+### 1 - Criar uma conta na [Copernicus](https://cds.climate.copernicus.eu/);
 
-###2 - Entrar [aqui](https://cds.climate.copernicus.eu/user) usando seu login e senha da Copernicus e obter sua UID e API Key:
+### 2 - Entrar [aqui](https://cds.climate.copernicus.eu/user) usando seu login e senha da Copernicus e obter sua UID e API Key:
 
 Exemplo:
 
@@ -18,9 +18,9 @@ UID: 999999
 
 API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 
-###3 - Copiar e salvar sua UID e API Key num bloco de notas;
+### 3 - Copiar e salvar sua UID e API Key num bloco de notas;
 
-###4 - Abrir terminal editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
+### 4 - Abrir terminal editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
 
 {
   
@@ -47,7 +47,7 @@ e salvar em C:\Users\Username folder com extensão .cdsapirc
 Obs.: Verficar a extensão do arquivo, caso esteja como .txt trocar por .cdsapirc
 
 
-###5 - Instalando CDS API:
+### 5 - Instalando CDS API:
 
 
 pip install cdsapi
@@ -58,7 +58,7 @@ ou
 
 conda install cdsapi
 
-###6 - Verificando se não houve erro até aqui, entrar no Python Script e digitar:
+### 6 - Verificando se não houve erro até aqui, entrar no Python Script e digitar:
 
 
 import cdsapi
@@ -66,10 +66,10 @@ import cdsapi
 cds = cdsapi.Client()
 
 
-###7 - Salvar no seu diretório as rotinas disponíveis nessa postagem
+### 7 - Salvar no seu diretório as rotinas disponíveis nessa postagem
 
 
-###8 - Pré-requisitos: netCDF4
+### 8 - Pré-requisitos: netCDF4
 
 
 pip install netCDF4
@@ -81,17 +81,17 @@ ou
 conda install -c conda-forge netCDF4
 
 
-###9 - Abrir o código era5_crocotools_param.py em editor de texto de sua preferencia e modificar conforme suas necessidades as linhas:
+### 9 - Abrir o código era5_crocotools_param.py em editor de texto de sua preferencia e modificar conforme suas necessidades as linhas:
 
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
 
-###10 - Já diretório de trabalho executar:
+### 10 - Já diretório de trabalho executar:
 
 python ERA5_request.py
 
 
-###11 - Depois converter:
+### 11 - Depois converter:
 
 python ERA5_convert.py
 
