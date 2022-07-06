@@ -66,7 +66,7 @@ import cdsapi
 cds = cdsapi.Client()
 
 
-### 7 - Salvar no seu diretório as rotinas disponíveis nessa postagem
+### 7 - Salvar no seu diretório os códigos e arquivos disponíveis nesta postagem
 
 
 ### 8 - Pré-requisitos: netCDF4
