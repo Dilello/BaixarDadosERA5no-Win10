@@ -66,7 +66,7 @@ import cdsapi
 cds = cdsapi.Client()
 ```
 
-### 7 - Salvar no seu diretório os códigos e arquivos disponíveis nesta [postagem}(https://github.com/Dilello/BaixarDadosERA5no-Win10)
+### 7 - Salvar no seu diretório os códigos e arquivos disponíveis nesta [postagem](https://github.com/Dilello/BaixarDadosERA5no-Win10)
 
 
 ### 8 - Pré-requisitos: netCDF4
