@@ -19,7 +19,7 @@ API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 
 ### 3 - Copiar e salvar sua UID e API Key num bloco de notas;
 
-### 4 - Abrir terminal editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
+### 4 - Abrir terminal e editar o codigo abaixo substituindo o UID pelo número do seu UID e o API Key pelo seu número API Key:
 ```
 {
   
@@ -80,17 +80,17 @@ ou
 conda install -c conda-forge netCDF4
 ```
 
-### 9 - Abrir o código [era5_crocotools_param.py]() em um editor de texto da sua preferência e modificar conforme suas necessidades as linhas:
+### 9 - Abrir o código [era5_crocotools_param.py](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/era5_crocotools_param.py) em um editor de texto da sua preferência e modificar conforme suas necessidades as linhas:
 
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
-### 10 - Já no seu diretório de trabalho executar pelo prompt do Anaconda este [código]():
+### 10 - Já no seu diretório de trabalho executar pelo prompt do Anaconda este [código](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py):
 
 ```
 python ERA5_request.py
 ```
 
-### 11 - Depois converter usando este [código]():
+### 11 - Depois converter usando este [código](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
 
 ```
 python ERA5_convert.py
