@@ -46,18 +46,16 @@ verify:0
 
 e salvar em C:\Users\Username folder com extensão .cdsapirc
 
-
 Obs.: Verficar a extensão do arquivo, caso esteja como .txt trocar por .cdsapirc
-
 
 ### 5 - Instalando CDS API:
 
-``` python
-# pip install cdsapi
+```
+pip install cdsapi
 ```
 ou
 
-```python
+```
 conda install cdsapi
 ```
 
@@ -74,12 +72,12 @@ cds = cdsapi.Client()
 
 ### 8 - Pré-requisitos: netCDF4
 
-```python
+```
 pip install netCDF4
 ```
 ou
 
-```python
+```
 conda install -c conda-forge netCDF4
 ```
 
@@ -87,16 +85,17 @@ conda install -c conda-forge netCDF4
 
 12, 13, 26, 27, 28, 29, 57, 58, 59 e 60
 
-
 ### 10 - Já no seu diretório de trabalho executar pelo prompt do Anaconda este [código]():
 
+```
 python ERA5_request.py
-
+```
 
 ### 11 - Depois converter usando este [código]():
 
+```
 python ERA5_convert.py
-
+```
 
 
 
