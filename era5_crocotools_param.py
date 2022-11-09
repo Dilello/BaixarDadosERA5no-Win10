@@ -54,10 +54,10 @@ if ownArea == 0:
     
 else:
     # To complete if ownArea==1
-    lonmin=-40
+    lonmin=-41
     lonmax=-36
-    latmin=-20
-    latmax=-17
+    latmin=-22
+    latmax=-16
 
 variables = ['msl','u10'  ,'v10' ]
 conv_cff  = [1.   , 1.    ,1.    ] 
