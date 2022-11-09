@@ -80,10 +80,10 @@ print ('lonmax+dl =', lonmax)
 print ('latmin-dl =', latmin)
 print ('latmax+dl =', latmax)
 # -------------------------------------------------
-latmax = 
-lonmin =
-latmin = 
-lonmax = 
+lonmin=-41
+lonmax=-36
+latmin=-22
+latmax=-16 
 area = [latmax, lonmin, latmin, lonmax]
 
 # -------------------------------------------------
