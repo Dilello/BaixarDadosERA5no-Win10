@@ -86,6 +86,8 @@ conda install -c conda-forge netCDF4
 
 ### 10 - Já no seu diretório de trabalho executar pelo prompt do Anaconda este [código](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py):
 
+A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1
+
 ```
 python ERA5_request.py
 ```
