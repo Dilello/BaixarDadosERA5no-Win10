@@ -80,6 +80,7 @@ print ('lonmax+dl =', lonmax)
 print ('latmin-dl =', latmin)
 print ('latmax+dl =', latmax)
 # -------------------------------------------------
+# definir a área de interesse:
 lonmin=-41
 lonmax=-36
 latmin=-22
