@@ -90,11 +90,7 @@ conda install -c conda-forge netCDF4
 python ERA5_request.py
 ```
 
-### 11 - Depois converter usando este [código](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
 
-```
-python ERA5_convert.py
-```
 
 
 
