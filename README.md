@@ -105,7 +105,7 @@ python ERA5_request.py
 A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1
 
 ```
-python ERA5_request.py
+python ERA5_convert.py
 ```
 
 
