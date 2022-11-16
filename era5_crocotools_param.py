@@ -23,14 +23,14 @@ era5_dir_processed = config_dir + 'DATA\\ERA5_' + config_name
 #
 # Dates limits
 #
-year_start = 2018
+year_start = 2022
 month_start = 1
-year_end = 2018
+year_end = 2022
 month_end = 3
 #
 # Year origin of time
 #
-Yorig=2000
+Yorig=2018
 #
 # Overlapping days (at the beginning/end of each month)
 #
@@ -58,9 +58,18 @@ else:
     lonmax=-36
     latmin=-22
     latmax=-16
-
-variables = ['msl','u10'  ,'v10' ]
-conv_cff  = [1.   , 1.    ,1.    ] 
+#
+# Variable names and conversion coefficients  
+# TP: convert from accumlated m in a hour into   kg m-2 s-1
+#
+cff_tp=1000./3600. # m in 1 hour -> kg m-2 s-1
+# Heat flux J m-2 in one hour into W m-2
+#
+cff_heat=1./3600.   # J m-2 in 1 hour -> W m-2
+# Names, conversion coefficients and new units
+#
+variables = ['msl','u10','v10'  ]
+conv_cff  = [1.,1.,1.] 
 units     = ['Pa','m s-1','m s-1']
 
 
