@@ -84,7 +84,8 @@ conda install -c conda-forge netCDF4
 
 12, 13, 26, 27, 28, 29, 33,57, 58, 59 e 60
 
-Este código foi construído para se obter pressão ao nível do mar (Pa) e velocidade do vento a 10 m (m/s) nas componentes u e v. Caso queira outros parametros ver no [ECMWF](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#ERA5:datadocumentation-Parameterlistings) e incorporar nas listas das linhas 44 e 62 a 64. 
+Este código foi construído para se obter pressão ao nível do mar (Pa) e velocidade do vento a 10 m (m/s) nas componentes u e v. Caso queira outros parametros ver no [ECMWF](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#ERA5:datadocumentation-Parameterlistings) e incorporar nas listas das linhas 44 e 62 a 64.
+Recomenda realizar download a cada 3 meses de dados.
 
 ### 10 - Abrir o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py) em um editor de texto, modificar e salvar as seguintes linhas:
 
@@ -99,6 +100,13 @@ A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1
 python ERA5_request.py
 ```
 
+### 12 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_convert](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
+
+A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1
+
+```
+python ERA5_request.py
+```
 
 
 
