@@ -102,7 +102,7 @@ python ERA5_request.py
 
 ### 12 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_convert](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
 
-A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1
+A cada rodada, deve-se deletar a pasta DATA/ERA5_Teste1
 
 ```
 python ERA5_convert.py
