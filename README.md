@@ -91,7 +91,7 @@ Recomenda-se realizar download a cada 3 meses de dados. IMPORTANTE: As datas dev
 
 56, 57, 58, 59, 63
 
-Inserir nas linhas 56 a 59 as mesmas coordenadas presentes nas linhas 26 a 29 do arquivo era5_crocotools_param.py. Na linha 63, a margem de tolerância pode ser modificada (default: 1/3).
+Inserir nas linhas 56 a 59 deste arquivo as mesmas coordenadas presentes nas linhas 57 a 60 do arquivo era5_crocotools_param.py. Na linha 63, a margem de tolerância pode ser modificada (default: 1/3).
 
 ### 11 - Abrir o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py) em um editor de texto, modificar e salvar as seguintes linhas:
 
