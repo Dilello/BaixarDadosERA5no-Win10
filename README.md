@@ -95,7 +95,7 @@ Inserir nas linhas 56 a 59 deste arquivo as mesmas coordenadas presentes nas lin
 
 ### 11 - Abrir o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py) em um editor de texto, modificar e salvar as seguintes linhas:
 
-83 a 86
+84 a 87
 
 
 ### 12 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py):
