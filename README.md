@@ -87,7 +87,7 @@ conda install -c conda-forge netCDF4
 Este código foi construído para se obter pressão ao nível do mar (Pa) e velocidade do vento a 10 m (m/s) nas componentes u e v. Caso queira outros parametros ver no [ECMWF](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#ERA5:datadocumentation-Parameterlistings) (coluna 'shortName') e incorporar nas listas das linhas 44 e 71 a 73 e na lista presente no arquivo [ERA5_variables](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_variables.json). Caso de ondas: Hs é swh, Tp é pp1d e Dir é mwd.
 Recomenda-se realizar download a cada 3 meses de dados. IMPORTANTE: As datas devem estar no MESMO ANO.
 
-### 10 - Abrir o código [era5_crocotools_param.py](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/era5_crocotools_param.m) em um editor de texto da sua preferência e modificar conforme suas necessidades as linhas:
+### 10 - Abrir o código [era5_crocotools_param.py](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/crocotools_param.m) em um editor de texto da sua preferência e modificar conforme suas necessidades as linhas:
 
 12, 13, 26, 27, 28, 29, 33, 44, 57, 58, 59, 60, 71, 72 e 73
 
