@@ -36,9 +36,9 @@ API_KEY: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 ou abrir um bloco notas e colar seu UID e API Key conforme o exemplo:
 
 ```
-url: https://cds.climate.copernicus.eu/api/v2
+url: https://cds.climate.copernicus.eu/api
 
-key: 999999:fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
+key: fb9b99cd-9cf9-99bf-999a-e9ad999c99e9
 
 verify:0
 ```
