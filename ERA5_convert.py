@@ -68,7 +68,7 @@ for iyear in range(year_start,year_end+1):
 
         fname_in = era5_dir_raw + '/ERA5_ecmwf_' + vname.upper() + '_Y' + str(iyear) + 'M' + str(imonth).zfill(2) + '.nc'
         nc = netcdf(fname_in,'r+',format='NETCDF4')
-        time = nc.variables['time'][:]
+        time = nc.variables['valid_time'][:]
         lat = nc.variables['latitude'][:]
         lon = nc.variables['longitude'][:]
         data = nc.variables[vname][:,:,:]
