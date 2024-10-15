@@ -97,27 +97,27 @@ Inserir nas linhas 56 a 59 deste arquivo as mesmas coordenadas presentes nas lin
 
 84 a 87
 
+### 12 - Caso não seja a primeira vez, antes de rodar as rotinas:
 
-### 12 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py):
+Deletar a pasta DATA/ERA5_native_Teste1.
 
-A cada rodada, deve-se deletar a pasta DATA/ERA5_native_Teste1. 
+Deletar a pasta DATA/ERA5_Teste1.
+
+### 13 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_request](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_request.py):
 
 ```
 python ERA5_request.py
 ```
 
-Finalizando esta rotina, seguir para o Passo 13. IMPORTANTE: Não baixar outro período (passo 9) antes de finalizar a conversão no passo 13.
+Finalizando esta rotina, seguir para o Passo 13. IMPORTANTE: Não baixar outro período (passo 9) antes de finalizar a conversão no passo 14.
 
-### 13 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_convert](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
-
-IMPORTANTE: Esse procedimento deve ser executado logo após o passo 12. O ano, mês e variavel 'valid_time' do arquivo nc estão atrelados a última edição do arquivo era5_crocotools_param.py. Se rodar outras datas no passo 12, a rotina ERA5_convert.py vai dar erro.
-
-A cada rodada, deve-se deletar a pasta DATA/ERA5_Teste1
+### 14 - Já no seu diretório de trabalho executar pelo prompt do Anaconda o código [ERA5_convert](https://github.com/Dilello/BaixarDadosERA5no-Win10/blob/main/ERA5_convert.py):
 
 ```
 python ERA5_convert.py
 ```
 
+IMPORTANTE: Esse procedimento deve ser executado logo após o passo 12. O ano, mês e variavel 'valid_time' do arquivo nc estão atrelados a última edição do arquivo era5_crocotools_param.py. Se rodar outras datas no passo 13, a rotina ERA5_convert.py vai dar erro.
 
 
 
