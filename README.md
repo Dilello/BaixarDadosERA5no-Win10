@@ -3,7 +3,7 @@
 ERA5 é a reanálise climática de quinta geração produzida pelo Centro Europeu de Previsões Meteorológicas de Médio Prazo (ECMWF). 
 O produto fornece saída horária para muitos parâmetros atmosféricos, terrestres e oceânicos, juntamente com estimativas de incerteza. 
 
-Esta postagem tem como objetivo descrever a instalarção da API do armazenamento de dados climáticos (CDS) para ler e analisar a saída ERA5 em Python e no sistema operacional Windows 10.
+Esta postagem tem como objetivo descrever a instalação da API do armazenamento de dados climáticos (CDS) para ler e analisar a saída ERA5 em Python e no sistema operacional Windows 10.
 
 ## Etapas
 
